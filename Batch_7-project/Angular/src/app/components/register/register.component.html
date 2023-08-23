@@ -1,0 +1,47 @@
+<div class="main-content" style="background-color: skyblue;">
+    <div style="border: 1px; width: 40%;height: 500px;float : left">
+        <img src="https://media0.giphy.com/media/kafBml3v3qZ7mWLrzT/giphy.gif?cid=6c09b95260b08dac5b84489e6260aede9b9dd9ebcc890188&rid=giphy.gif&ct=s" width="500" height="500">
+      </div>
+        
+<div style="width:60%;height:10px;float: right">
+<h2 style="text-align:center">Register here</h2><br><br>
+<div style="width:70%;height:10px;float: right">
+<form #loginform="ngForm" novalidate (ngSubmit)="onRegist()">
+    <table style="border: 2px;">
+        <tbody>
+        <tr>
+        <td>Fname:</td><td><input type="text" placeholder = "firstName" name="fname" [(ngModel)]="user.fname"/></td>
+    </tr>
+    <tr><br></tr>
+    <tr>
+        <td>Lname:</td><td><input type="text" placeholder = "lastName" name="lname" [(ngModel)]="user.lname"/></td>
+    </tr>
+    <tr><br></tr>
+    <tr>
+        <td>Email:</td><td><input type="text" placeholder = "enter_email" name="email" [(ngModel)]="user.email"/></td>
+    </tr>
+    <tr><br></tr>
+    <tr>
+        <td>PhoneNumber:</td><td><input type="text" placeholder = "enter_phonenumber" name="phno" [(ngModel)]="user.phonenumber"/></td>
+    </tr>
+    <tr><br></tr>
+    
+    <tr><br></tr>
+    <tr>
+        <td>Password:</td><td><input type="password" placeholder = "enter_password" name="pwd" [(ngModel)]="user.password"/></td>
+    </tr>
+    <tr><br></tr>
+    <tr>
+        <td>UserType:</td><td><input type="text" placeholder = "usertype"  name="u_type" [(ngModel)]="user.usertype" /></td>
+    </tr>
+    <tr><br></tr>
+    <tr>
+        <td><button class="btn btn-info btn-md" type="submit">Register</button></td>
+    </tr>
+    </tbody>
+    </table>
+</form>
+</div>
+</div>
+
+

@@ -1,0 +1,39 @@
+<div  style ="background-color:  rgb(117, 119, 243);">
+ <p>
+    Welcome admin
+</p>
+        <div class="container-fluid">
+            <button type="button" class="btn btn-info btn btn-lg" (click)="addFurnitureForm()">
+                Add more  Products</button>
+                <br><br>
+                <div class="log">
+                    <button type="button" class="btn btn-info btn btn-lg" (click)="show3()">
+                        Logout</button>
+                </div>
+             <div class="container">
+                <div class="row">
+                    <div *ngFor="let pdetail of productdetails">
+                <div class="col-md-3">
+                          <img src={{pdetail.image_url}} style="height: 280px;width: 200px ;"alt="pet not found" class="img-rounded">
+                          <h4>{{pdetail.pname}}</h4>
+                          <h5>{{pdetail.description}}</h5>
+                          <h6>RS.{{pdetail.price}}</h6>
+                          <button type="button" class="btn btn-success btn-md" (click)="updateProduct(pdetail.p_id)">
+                            update
+                        </button>
+                        &nbsp;&nbsp;
+                        <button type="button" class="btn btn-danger btn-md" (click)="deleteProduct(pdetail.p_id)">
+                            Delete
+                        </button>
+                        <br><br>
+                    </div>
+                   </div>
+                 </div> 
+        </div>
+        <!-- <button type="button" class="btn btn-info btn btn-lg" (click)="show3()">
+            Logout</button> -->
+    </div>
+</div>
+
+
+

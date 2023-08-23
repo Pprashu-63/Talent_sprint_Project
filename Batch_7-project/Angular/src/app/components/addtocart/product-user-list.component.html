@@ -1,0 +1,31 @@
+<body style="background-color: lightpink;">
+  <div style="border:1px;width:40%;height:500px;float:left;margin-top: 7%;margin-left: 10%;">
+
+    <img src="./assets/images/shopping.gif" width="500" height="500">
+  </div>
+
+
+  <div class="row m-0 ">
+    <h1 style="text-align:center">Cart Page</h1>
+    <div class="cart-item col-md-3" *ngFor="let item of items; let i=index">
+
+      <h4>{{i+1}}</h4>
+      <img src={{item.image_url}} style="height: 280px;width: 200px ;" alt="pet not found" class="img-rounded">
+      <h4>{{item.p_name}}</h4>
+      <h5>{{item.description}}</h5>
+      <h5> Price :</h5>&nbsp;<h6>Rs {{item.price}} only</h6>
+      <!--<button type="button" class="btn btn-danger btn-md" (click)="deleteCartProduct()">
+        Delete
+    </button>-->
+    </div><br><br><br><br>
+    <div style="margin-top:500px;margin-left: 650px;">
+      <button type="button" class="btn btn-success btn-lg" (click)="buyNow()">
+        Buy Now
+      </button>
+      &nbsp;
+      <button type="button" class="btn btn-primary btn-lg" (click)="shopMore()">
+        shop More..
+      </button>
+    </div>
+  </div>
+</body>

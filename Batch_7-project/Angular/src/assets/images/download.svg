@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112.685" height="137.475" viewBox="0 0 112.685 137.475">
+  <g id="Group_303" data-name="Group 303" transform="translate(-1143.395 -227.525)">
+    <g id="Asset_2logo" data-name="Asset 2logo" transform="translate(1708.395 241.525)">
+      <g id="Layer_1" data-name="Layer 1" transform="translate(-565 -14)">
+        <path id="Path_921" data-name="Path 921" d="M1.8,67.1H0V43.122a5.434,5.434,0,0,1,4.922-5.558c.951-.14,13.36-2.511,24.655-4.683l.9-.171.338,1.771-.9.167c-5.49,1.059-23.5,4.5-24.737,4.7A3.73,3.73,0,0,0,1.8,43.122Z" transform="translate(0 -17.966)" fill="#dd5103"/>
+        <path id="Path_922" data-name="Path 922" d="M118.583,202.745l-.343-1.771.9-.171c10.71-2.078,46.07-8.911,49.167-9.335,1.253-.18,7.518-1.433,7.518-8.438V136h1.8v47.03c0,6.585-4.886,9.623-9.069,10.218-3.056.451-38.358,7.248-49.1,9.326Z" transform="translate(-64.945 -74.7)" fill="#0082c3"/>
+        <path id="Path_923" data-name="Path 923" d="M0,223v36.96L19.99,256" transform="translate(0 -122.485)" fill="#dd5103"/>
+        <path id="Path_924" data-name="Path 924" d="M225.64,36.961V0L205.65,3.962" transform="translate(-112.956)" fill="#0082c3"/>
+      </g>
+    </g>
+    <g id="Asset_11secure" data-name="Asset 11secure" transform="translate(1183.771 270.374)">
+      <g id="Calque_2" data-name="Calque 2" transform="translate(0)">
+        <path id="Path_505" data-name="Path 505" d="M3.98,21.206a1.1,1.1,0,0,1-1.1-1.1V9.547a9.547,9.547,0,1,1,19.094,0v7.391a1.122,1.122,0,0,1-1.1,1.1,1.1,1.1,0,0,1-1.1-1.1V9.547a7.347,7.347,0,1,0-14.695,0V20.106A1.1,1.1,0,0,1,3.98,21.206Z" transform="translate(3.456 0)" fill="#ec6607" stroke="#ec6607" stroke-width="1"/>
+        <path id="Path_504" data-name="Path 504" d="M1.1,38.942A1.144,1.144,0,0,1,.4,38.7a1.166,1.166,0,0,1-.4-.858v-24.2a1.1,1.1,0,0,1,.9-1.1L30.467,7.221a1.122,1.122,0,0,1,.9.22,1.144,1.144,0,0,1,.374.858V32.5a1.1,1.1,0,0,1-.9,1.1L1.3,38.92ZM2.2,14.48v22l27.344-4.884V9.6Z" transform="translate(0 8.64)" fill="#0082c3" stroke="#0079ba" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

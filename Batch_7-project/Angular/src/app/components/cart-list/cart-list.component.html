@@ -1,0 +1,42 @@
+<div style ="background-color:  rgba(158, 235, 223, 0.97);">
+ <div>
+    <li><app-search></app-search></li>
+ </div>
+ <div class="log">
+  <button type="button" class="btn btn-info btn btn-lg" (click)="show3()">
+    Logout</button>
+ </div>
+ <!-- <div class="row m-0 bg-img"> -->
+ <div class="main-content">
+    <div class="section-content section-content-p30">
+        <div class="container-fluid">
+            
+            <!-- <ul class="nav navbar-nav navbar-right">
+            
+</ul> -->
+
+            <div class="container">
+                <div class="row">
+                    <div *ngFor="let pdetail of productdetails">
+                <div class="col-md-3">
+                        <img src={{pdetail.image_url}} style="height: 280px;width: 200px ;"alt="pet not found" class="img-rounded">
+                        <br><br>
+                        <h5>{{pdetail.pname}}</h5>
+                        <h5>{{pdetail.description}}</h5>
+                        <h6>RS.{{pdetail.price}}</h6>
+                          <button type="button" class="btn btn-success btn-lg" (click)="AddToCart(pdetail)">
+                            Add To Cart
+                       </button>
+                       <br><br>
+                          </div>
+                        </div>
+                 </div>
+                 
+    </div>
+    <!-- <button type="button" class="btn btn-info btn btn-lg" (click)="show3()">
+        Logout</button> -->
+</div>
+</div>
+</div>
+
+

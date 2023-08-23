@@ -1,0 +1,30 @@
+<body style="background-image: url('./assets/images/8042d5b86ee7015157cab06b14c80e42.gif');">
+<main>
+  <form #loginform="ngForm" novalidate (ngSubmit)="onLogin()">
+  <div class="row">
+      <div class="colm-logo">
+          <img src="./assets/images/sign-up-now.gif" alt="Logo">
+      </div>
+      <div class="colm-form">
+        <div class="form-container">
+            <input type="text" name="email" placeholder="Email address " class="form-control"ngModel #email="ngModel"required minlength="4" maxlength="30"[(ngModel)]="user.email"/>
+            <div *ngIf="email.errors?.['required']&&email.touched">Please Enter Email Id</div>
+            <div *ngIf="email.errors?.['minlength']&&email.touched">Enter minimum 4 characters</div>
+            <input type="password" name="password" placeholder="Password" class="form-control"ngModel #password="ngModel"required minlength="2" maxlength="30"[(ngModel)]="user.password"/>
+            <div *ngIf="password.errors?.['required']&&password.touched">Please Enter Password</div>
+            <div *ngIf="password.errors?.['minlength']&&password.touched">Enter minimum 2 characters</div>
+           <!-- <input type="usertype" placeholder="usertype" [(ngModel)]="user.usertype"/>  -->
+           <button [disabled]=loginform.invalid class="btn btn-primary"type="submit">Login</button><br><br>
+           <h4><a routerLink="/register">New User Register Here?</a></h4>
+    </div>
+  </div> 
+  </div>
+</form>
+</main>
+<footer>
+  <div class="footer-contents">
+      <small>Decathlon © 2022</small>
+  </div>
+</footer> 
+</body>
+
